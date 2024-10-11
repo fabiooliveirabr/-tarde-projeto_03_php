@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --preto: #040301;
+    --dourado: #9C8050;
+    --branco: #FFFFFF;
+    --cinza_escuro: #0D0D0D;
+    --fonte_titulos: 'Abhaya Libre';
+    --fonte_textos: 'Saira';
+}
+body{
+    font-family: var(--fonte_textos);
+    margin: 0px;
+}
+#menu_topo{
+    background-color: var(--preto);
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+    align-items: center;
+}
+
+#menu_topo img{
+    height: 70px;
+}
+.btn_dourado{
+    background-color: var(--dourado);
+    color: var(--branco);
+    font-weight: 700;
+    width: 200px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 20px;
+}
+
+#secao1{
+    height: fit-content;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(imagens/bg1.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
+#formulario1{
+    min-width: 500px;
+    background-color: rgba(32, 30, 26, 0.3);
+    border: 1px solid var(--dourado);
+    backdrop-filter: blur(10px);
+    margin-right: 80px;
+    max-width: 500px;
+    color: var(--branco);
+    padding: 20px;
+}
+#foto1{
+    height: 40vw;
+    min-height: 500px;
+    margin-bottom: 40px;
+}
+#formulario1 h1{
+    color: var(--dourado);
+    font-family: var(--fonte_titulos);
+}
+#formulario1 p{
+    color: var(--branco);
+}
+#formulario1 button{
+    background-color: var(--dourado);
+    color: var(--branco);
+    font-weight: 700;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+#formulario1 input{
+    width: 99.5%;
+    background-color: #3e3b35ca;
+    outline: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border: none;
+    color: var(--branco);
+    text-align: center;
+}
+#secao2{
+    background-color: var(--preto);
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+.cartoes{
+    background-color: var(--cinza_escuro);
+    border: 1px solid var(--dourado);
+    min-width: 350px;
+    max-width: 350px;
+    min-height: 280px;
+    color: var(--branco);
+    padding: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+}
+
+.cartoes h4{
+    color: var(--dourado);
+    text-transform: uppercase; /* texto em letras maiusculas */
+    font-size: 25px;
+    font-family: var(--fonte_titulos);
+}
+.icones{
+    width: 20px;
+    height: 20px;
+    padding: 18px;
+    background-color: var(--dourado);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: -60px;
+}
+/* Início Formatação da Seção 3 */
+#secao3{
+    background-color: var(--cinza_escuro);
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid var(--dourado);
+}
+
+#foto2{
+    min-height: 500px;
+    height: 35vw;
+}
+
+#conteudo3{
+    min-width: 400px;
+    width: 38vw;
+    margin-left: 100px;
+}
+
+#conteudo3 h1{
+    font-family: var(--fonte_titulos);
+    color: var(--dourado);
+}
+
+#conteudo3 p{
+    color: var(--branco);
+}
+.cartoes2{
+    display: flex;
+    margin-top: 20px;
+}
+.verificado{
+    background-color: var(--dourado);
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 20px;
+    max-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+#icone_verificado{
+   max-width: 10px;
+    max-height: 10px;
+}
+
+.cartoes2 p{
+    margin-top: -7px;
+}
+/* Fim da formatação da seção 3 */
+
+#secao4{
+    background-color: var(--dourado);
+    height: fit-content;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+#secao4 h1{
+    width: 70%;
+    margin: auto;
+    text-transform: uppercase;
+    font-family: var(--fonte_titulos);
+    font-weight: 800;
+}
+
+#secao4 p{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#secao4 form{
+    display: flex;
+    margin: auto;
+    width: fit-content;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#secao4 input{
+    background-color: rgba(255,255,255,0.6);
+    border: none;
+    outline: none;
+    margin-right: 15px;
+    height: 50px;
+    width: 340px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#secao4 button{
+    background-color: var(--preto);
+    color: var(--dourado);
+    width: 340px;
+    height: 50px;
+    font-weight: 700;
+    border: none;
+}
+#secao5{
+    background-color: var(--preto);
+    height: fit-content;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    color: var(--branco);
+    justify-content: center;
+    align-items: center;
+}
+#foto3{
+    max-height: 600px;
+    height: 60vw;
+}
+#conteudo5{
+    min-width: 400px;
+    width: 35vw;
+    margin-right: 60px;
+}
+#secao5 h1{
+    font-family: var(--fonte_titulos);
+    color: var(--dourado);
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+#rodape{
+    background-color: var(--cinza_escuro);
+    color: var(--branco);
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid var(--dourado);
+    justify-content: space-evenly;
+}
+
+#rodape div{
+    min-width: 400px;
+    text-align: center;
+    font-size: 12px;
+}
+body{
+    background-color: var(--preto);
+}
+#mensagem_confirmacao{
+    color: var(--branco);
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+#mensagem_confirmacao h1{
+    font-family: var(--fonte_titulos);
+    font-weight: 900;
+    font-size: 50px;
+    color: var(--dourado);
+    margin-top: 100px;
+}
+#logomarca{
+    height: 200px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1024px){
+    #secao3{
+        flex-direction: column;
+    }
+    #conteudo5{
+        margin: auto;
+        margin-top: 40px;
+        text-align: center;
+    }
+    #formulario1{
+        margin: auto;
+        max-width: 70%;
+        min-width: 70%;
+    }
+
+    #conteudo3{
+        margin: auto;
+        margin-top: 70px;
+    }
+    #secao4 button{
+        margin-left: -12px;
+    }
+}
